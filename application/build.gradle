@@ -4,7 +4,7 @@ plugins {
     id 'application'
 }
 
-group '##GROUP_ID##'
+group 'de.fussel178.telestion.project.test'
 
 sourceCompatibility = gradle.sourceCompatibility
 targetCompatibility = gradle.targetCompatibility

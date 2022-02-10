@@ -15,10 +15,10 @@ services:
       # pass configuration to container
       - type: bind
         source: "./conf"
-        target: "/usr/telestion/##REPO_NAME##/conf"
+        target: "/usr/telestion/my-telestion-project/conf"
 
   telestion:
-    image: "ghcr.io/##REPO_USER##/##REPO_NAME##:latest"
+    image: "ghcr.io/my-telestion-project/my-telestion-project:latest"
     profiles: ["prod"]
     restart: unless-stopped
     ports:
@@ -28,7 +28,7 @@ services:
       # pass configuration to container
       - type: bind
         source: "./conf"
-        target: "/usr/telestion/##REPO_NAME##/conf"
+        target: "/usr/telestion/my-telestion-project/conf"
 
 # rename default docker network
 networks:

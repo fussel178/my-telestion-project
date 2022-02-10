@@ -34,8 +34,8 @@ Good example projects are:
 ### The Application
 
 To set up the Telestion Application, please go to the latest release of the project
-and download the `##REPO_NAME##-vX.X.X.zip`:
-https://github.com/##REPO_USER##/##REPO_NAME##/releases/latest
+and download the `my-telestion-project-vX.X.X.zip`:
+https://github.com/fussel178/my-telestion-project/releases/latest
 
 Extract it with your favorite archiver.
 
